@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+header{
+    padding-top: 0px;
+    padding-left: 30%;
+    background: rgb(188, 36, 34);
+    /*background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; 
+    background-image: url(./img/fondos/cerezo2.jpg);*/
+    }
+    
+    
+    body{
+        background: rgb(216, 216, 216);
+        color: rgb(0, 0, 0)
+    }
+       

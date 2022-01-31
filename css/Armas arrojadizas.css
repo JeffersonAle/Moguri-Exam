@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+header{
+    padding-top: 0px;
+    padding-left: 30%;
+    background: rgb(188, 36, 34);
+    /*background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; 
+    background-image: url(./img/fondos/cerezo2.jpg);*/
+    }
+    
+    
+    body{
+        background: rgb(216, 216, 216);
+        color: rgb(0, 0, 0)
+    }
+
+
+    .footer{
+        background-color: #1d293f;
+      }
+    
+      .footer_title{
+          font-weight: 300;
+          font-size: 2rem;
+          margin-bottom: 30px;
+      }
+    
+      .footer_title, .footer_newsletter{
+          color: rgb(255, 255, 255);
+      }
+    
+      .footer_container{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px solid #ffffff;
+          padding-bottom: 60px;
+      }
+    
+      .nav--footer{
+          padding-bottom: 20px;
+          display: grid;
+          gap: 1em ;
+          grid-auto-flow: row;
+          height: 100%;
+      }
+    
+      .nav_link--footer{
+          display: flex;
+          margin: 0;
+          margin-right: 20px;
+          flex-wrap: wrap;
+      }
+    
+      .footer_inputs{
+          margin-top: 10px;
+          display: flex;
+          overflow: hidden;
+      }
+      .footer_input{
+          background-color: #ffffff;
+          height: 50px;
+          display: block;
+          padding-left: 10px;
+          border-radius: 6px;
+          font-size: 1rem;
+          outline: none;
+          border: none;
+          margin-right: 16px;
+      }
+    
+      .footer_submit{
+          margin-left: auto;
+          display: inline-block;
+          height: 50px;
+          padding: 0 20px;
+          background-color: rgb(111, 111, 226);
+          border: none;
+          font-size: 1rem;
+          color: #fff;
+          border-radius: 6px;
+          cursor: pointer;
+      }
+    
+      .footer_copy{
+          --padding-container: 30px 0;
+          text-align: center;
+          color: #fff;
+      }
+    
+      .footer_copyright{
+          font-weight: 300;
+      }
+    
+      .footer_icons{
+          display: inline-flex;
+          margin-bottom: 10px;
+      }
+    
+      .footeer_img{
+          width: 30px;
+      }
+    
